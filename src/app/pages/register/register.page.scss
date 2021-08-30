@@ -13,10 +13,6 @@
     padding-left: 62px;
     padding-right: 62px; 
  
-   
-    
-  
-
     ion-label {
         display: block;
     }
@@ -33,8 +29,6 @@
         font-size: 29px;
         line-height: 111.19%;
         color: #ffffff;
-
-        /* or 52px */
         letter-spacing: -0.01em;
         padding-bottom: 20px;
 
@@ -42,9 +36,6 @@
     }
     .head_lbl1{
 
-        //margin-bottom: 500px;
-        
-        
         font-family: Comfortaa !important;
         font-style: normal;
         font-weight: bold;
@@ -56,38 +47,19 @@
         
         
             }
-            ion-icon{
-                float: right;
-                flex-direction: end;
-            }
+            
     ion-select{
         height: 46px;
         margin-top: 19px;
-
-font-family: Comfortaa;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
-margin-left: 4px;
-
-
-
-
-/* identical to box height */
-
-color: #000000;
-border-bottom: 1px solid #FFFFFF;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 4px;
+        color: #000000;
+        border-bottom: 1px solid #FFFFFF;
     }
-    ion-datetime {
-        --padding-end: 4px;
-        --padding-start: 4px;
-        background: #f3f3f3;
-        border-radius: 3px;
-        margin-top: 15px;
-        height: 50px;
-    }
-
     
     .register{
         text-align: center;
@@ -96,38 +68,33 @@ border-bottom: 1px solid #FFFFFF;
         font-weight: 400;
         span{
             color: #01519A;
-           
-
         }
         padding-top: 30px;
     }
 
     ion-button{
-        --border-radius: 10px;
-        //margin-top: 20px;
         height: 50px;
         margin-top: 30px;
         --background: #1F2E45;
 
         box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
         font-family: IBMPlexSans !important;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 21px;
-color: #FFFFFF;
-text-transform: capitalize;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-transform: capitalize;
 
-span{
-    text-align: right;
-    align-content: flex-end;
+        span{
+            text-align: right;
+            align-content: flex-end;
 
-}
+        }
     }
 
     .bottom_div{
         text-align: center;
         font-size: 14px;
-        
     }
 }
