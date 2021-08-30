@@ -1,0 +1,132 @@
+.main_content_div{
+    background: linear-gradient(180deg, #13233C 0%, rgba(196, 196, 196, 0) 100%);
+    width: 100%;
+    padding: 20px;
+    //height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 62px;
+    padding-right: 62px;
+   
+    ion-label {
+        display: block;
+    }
+
+    .scroll-content {
+        overflow-y: hidden;
+      }
+
+    .head_lbl{
+
+        font-family: FredokaOne !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 47px;
+        //line-height: 111.19%;
+        color: #ffffff;
+
+        /* or 52px */
+        letter-spacing: -0.01em;
+
+
+    }
+
+    .head_lbl1{
+
+//margin-bottom: 500px;
+
+
+font-family: Comfortaa !important;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 19px;
+
+color: #FFFFFF;
+padding-bottom: 30px;
+
+
+    }
+
+    ion-input{
+        
+        height: 46px;
+        margin-top: 19px;
+
+font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+margin-left: 4px;
+
+
+
+
+/* identical to box height */
+
+color: #000000;
+border-bottom: 1px solid #FFFFFF;
+
+
+    }
+
+    ion-icon{
+        text-align: right;
+        align-items: flex-end;
+    }
+    .forgot{
+        text-align: right;
+        margin-top: 15px;
+        color:#01519A;
+        font-size: 10px;
+        font-family: FredokaOne !important;
+        font-weight: 400;
+        padding-bottom: 30px;
+
+    }
+
+    .register{
+        text-align: center;
+        font-size: 13px;
+        font-family: FredokaOne !important;
+        font-weight: 400;
+        span{
+            color: #01519A;
+           
+
+        }
+        padding-top: 30px;
+    }
+
+    ion-button{
+        --border-radius: 10px;
+        //margin-top: 20px;
+        height: 50px;
+       
+        --background: #1F2E45;
+
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+        font-family: IBMPlexSans !important;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+text-transform: capitalize;
+    }
+
+    .bottom_div{
+        //padding-top: 32px;
+        text-align: center;
+        font-size: 13px;
+        font-family: FredokaOne !important;
+        font-weight: 400;
+        span{
+            color: #01519A;
+           
+
+        }
+    }
+}
